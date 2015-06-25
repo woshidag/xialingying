@@ -47,7 +47,7 @@ function activateWithID(id) {
 	        msrc: 'http://placehold.it/60x40'
 	    },
 	    {
-	        src: 'kdls(1).jpg',
+	        src: 'kdls (1).jpg',
 	        w: 600,
 	        h: 400,
 	        msrc: 'http://placehold.it/60x40'
