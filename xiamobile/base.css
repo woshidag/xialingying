@@ -155,7 +155,7 @@ footer .flink{margin:15px 0; }
 footer .flink a{font-size: 14px; color: #aaaaaa; width: 25%;}
 footer .flink span{padding:0 10px; display: inline-block; color: #6f6f6f;}
 footer .flink a:last-child{border-right: 0;}
-footer .qcode{width: 40%; margin:10px auto;}
+footer .qcode{width: 40%;  height: 160px; margin:10px auto;}
 footer p{color: #fff; text-align: center;}
 
 /*----------------------------------------------------------------------*/
