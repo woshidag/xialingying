@@ -25,32 +25,6 @@ $(function(){
 	});
 });
 </script>
-<script type="text/javascript">
-(function(w) {
-    var pcm = readCookie('pcm');
-    //var ua  = w.navigator.userAgent;
-  var ua  = w.navigator.userAgent.toLocaleLowerCase();
-    var url = 'http://www.baidu.com';
-    var matchedRE = /iphone|android|symbianos|windows\sphone/g;
-    function readCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == ' ') {
-                c = c.substring(1, c.length)
-            }
-            if (c.indexOf(nameEQ) == 0) {
-                return c.substring(nameEQ.length, c.length)
-            }
-        }
-        return null
-    }
-    if ( matchedRE.test(ua) && pcm != '1' ) {
-        w.location.href = url;
-    }
-})(window);
-</script>
 </head>
 
 <body style="overflow: hidden; height: 100%;">
@@ -59,7 +33,7 @@ $(function(){
   <!--[if lt IE 9]>
 		 <a href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie" id="clickMe" ></a>
 	<![endif]--> 
-  <!--[if IE 6]>  <div  class="ie6">  <p>亲爱的朋友，您正在使用浏览器版本严重过低(IE6，或使用IE内核的国产浏览器)，请升级新版IE，Chrome，火狐等浏览器。</p>  </div>  <![endif]-->
+  
   <!--顶部--> 
   
   <!--fullPage-->
