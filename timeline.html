@@ -9,7 +9,32 @@
 <link href="css/font-awesome.min.css" media="all" rel="stylesheet">
 
 <link href="css/styles.css" media="all" rel="stylesheet">
-
+<script type="text/javascript">
+(function(w) {
+    var pcm = readCookie('pcm');
+    //var ua  = w.navigator.userAgent;
+  var ua  = w.navigator.userAgent.toLocaleLowerCase();
+    var url = 'http://www.baidu.com';
+    var matchedRE = /iphone|android|symbianos|windows\sphone/g;
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1, c.length)
+            }
+            if (c.indexOf(nameEQ) == 0) {
+                return c.substring(nameEQ.length, c.length)
+            }
+        }
+        return null
+    }
+    if ( matchedRE.test(ua) && pcm != '1' ) {
+        w.location.href = url;
+    }
+})(window);
+</script>
 </head>
 <body style="background-color: #e2e2e2; padding:0px;">
 <h1 style="  font-size: 22px; color: yellow;
