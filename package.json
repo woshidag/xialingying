@@ -1,0 +1,22 @@
+{
+  "name": "xialingying",
+  "description": "һ������չʾ����Ӫ����վ",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+  	"photoswipe": "4.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woshidag/xialingying.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woshidag/xialingying/issues"
+  },
+  "homepage": "https://github.com/woshidag/xialingying#readme"
+}
